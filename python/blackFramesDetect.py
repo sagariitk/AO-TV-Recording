@@ -17,7 +17,7 @@ class Clientmethods:
     device_id = sys.argv[2]
     file_path="D:\\" + channel_name
     logs_path="C:\\Users\\User\\Desktop\\scripts\\logs\\blackDetect.txt"
-    receiver = "pradeep.thawani@quantiphi.com,amit.kumar@quantiphi.com"
+    receiver = ""
     cf_endpoint =  "https://us-central1-athenas-owl-dev.cloudfunctions.net/cf-send-mail-generic"
 
     
